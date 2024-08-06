@@ -1,0 +1,66 @@
+/* Import General Styles */
+@import url('styles.css');
+
+/* Home Section Styles */
+#home {
+    padding: 40px 0;
+    background-color: #e6f7ff;
+    text-align: center;
+}
+
+#home h2 {
+    font-size: 36px;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    transition: transform 0.2s;
+}
+
+.home-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.home-item h3 {
+    color: #004080;
+    margin-top: 0;
+}
+
+.home-item p {
+    color: #333;
+}
+
+.home-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-item a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,22 @@
+/* Import General Styles */
+@import url('styles.css');
+
+/* Why Choose Us Section Styles */
+#why-choose-us {
+    padding: 40px 0;
+    background-color: #e6f7ff;
+    text-align: center;
+}
+
+#why-choose-us h2 {
+    font-size: 36px;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+#why-choose-us p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
